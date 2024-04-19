@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+div.message {
+    max-width: 400px;
+    color: black;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    text-align: center;
+}
+
+div.error-message {
+    background-color: #ff9999;
+}
+
+div.good-message {
+    background-color: #99ff99;
+}

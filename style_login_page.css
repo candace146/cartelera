@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+div.error-message{
+    
+    color: #ff6961;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+#username, #password{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+div.cong-checkbox{
+    margin: 5px;
+    margin-top: 7px;
+}
+
+

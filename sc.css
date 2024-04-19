@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    text-align: center;
+  }
+h3{
+    margin-bottom: 15px; /* Espacio entre el título y los botones */
+}
+  
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin: 5px;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: lightskyblue;
+}

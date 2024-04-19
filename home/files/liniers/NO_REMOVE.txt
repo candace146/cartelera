@@ -1,0 +1,3 @@
+Por que no remover este .txt si no hace nada?
+
+La variable GLOBAL_COUNT para liniers siempre sera ( GLOBAL_COUNT + 1), ¿Por que? Para que el ID que se registre en la DB sea siempre 1 mas que el id de andes, asi no tenemos conflictos y errores SQL.

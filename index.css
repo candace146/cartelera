@@ -1,0 +1,156 @@
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    justify-content: center;
+    
+    text-align: center; 
+    display: flex;
+    margin:10px;    
+    display: fixed;
+}
+.congregacion_title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index:999; 
+    
+}
+
+button.log_in_buttom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #72c8f1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+.container .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px ;
+    
+}
+
+.container .image-container .image{
+    
+    height: 220px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+}
+
+.container .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: .2s linear;
+}
+
+
+.container .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, 0.9) ;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.container .popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50% );
+    border: 5px solid #Fff;
+    border-radius: 5px;
+    width: 550px;
+    object-fit: cover;
+    object-position: top;
+}
+@media (max-width:768px){
+    .container .popup-image img{
+        width: 95%;
+    }
+    
+}
+.image {
+    background: #fff;
+    text-align: center;
+    
+}
+
+.container .image-container .image {
+    
+    width: 350px; /* Ensure full width */
+}
+
+
+
+/* TITULOS */
+
+
+#limpieza_title{
+    background-color: cornflowerblue;
+}
+
+#cartas1_title{
+    background-color: coral;
+}
+#fechas_importantes_title{
+    background-color:khaki;
+}
+#cartas3_title{
+    background-color: coral;
+}
+#reunion_fin_title{
+    background-color: darkseagreen;
+}
+#reunion_entre_title{
+    background-color: darkseagreen;
+}
+#grupos_predicacion_title{
+    background-color:lightcoral;
+}
+#acomodadores_microfonistas_title{
+    background-color: lightpink;
+}
+#audio_video_title{
+    background-color: lightblue;
+}
+#contabilidad_title{
+    background-color: lightgrey;
+}
+
+

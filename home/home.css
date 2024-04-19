@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+#log_off_button {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: #72c8f1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#faq_button {
+    position: absolute;
+    bottom: 20px;
+    left: 10px; /* O cualquier otro valor que desees para la posici�n horizontal */
+    border-radius: 5px;
+    background-color: #72c8f1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#arch {
+    color: gray;
+    position: fixed; /* Usar position: fixed en lugar de absolute para mantener el texto en la parte inferior */
+    bottom: 0;
+    width: 100%; /* Opcional: especifica el ancho del elemento */
+    text-align: center; /* Opcional: centrar el texto */
+     /* Opcional: agregar un fondo claro */
+    }
