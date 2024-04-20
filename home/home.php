@@ -14,7 +14,7 @@
 <button id="upload_form_button" onclick="location.href = 'upload.php'"> Subir un archivo </button>
 
 <a href="faq/faq.html" id="faq_button"> Ayuda </a>
-
+<button id="fetchGoogleSiteImages" onclick="location.href = '../apis/photos_automatic/fetchGoogleSiteImages.php'"> Intentar descargar las fotos del Google Site. </button>
 <?php 
 include '../variables.php';
 
