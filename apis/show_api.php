@@ -1,5 +1,8 @@
 <?php
-$w_user = $_SESSION['w_user'];
+if (isset($_SESSION['w_user'])){
+	$w_user = $_SESSION['w_user'];
+}
+	
 function showing($w_user){
 	//session_start();
 	$DATABASE_HOST = '127.0.0.1';
@@ -44,6 +47,9 @@ function showing($w_user){
 					$img_path["grupos_predicacion"][] = $row['path'];
 				} 
 				if ($row['tema'] == "reunion_e_semana"){
+					$img_path["reunion_e_semana"][] = $row['path'];
+				} 
+				if ($row['tema'] == "reunion_f_semana"){
 					$img_path["reunion_f_semana"][] = $row['path'];
 				} 
 				if ($row['tema'] == "acomodadores_microfonistas"){

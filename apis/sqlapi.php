@@ -1,5 +1,5 @@
 <?php 
-include 'C:/xampp/htdocs/dashboard/variables.php';
+
 session_start();
 $w_user = $_SESSION['w_user'];
 // SQL VARIABLES

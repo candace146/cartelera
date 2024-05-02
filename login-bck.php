@@ -7,6 +7,8 @@
         $user = $_POST['username'];
         $pass = $_POST['password'];
     }
+
+    $_SESSION['w_user'] = $user;
     check_user_and_pass($user, $pass, $con);
     
 

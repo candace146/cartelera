@@ -5,28 +5,26 @@ body {
     
     text-align: center; 
     display: flex;
-    margin:10px;    
-    display: fixed;
-}
-.congregacion_title{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index:999; 
+    scrollbar-width: 0px;
     
 }
-
-button.log_in_buttom {
+.congregacion_title{
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: #72c8f1;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: center;
+    z-index:999; 
+    height: 65px;
+    width: 500px;
+    margin-top: 10px;
+
+    font-family: 'Roboto';
 }
+hr{
+    color:black;
+    size: 10px;
+}
+
 
 
 *{
@@ -38,7 +36,7 @@ button.log_in_buttom {
     position: relative;
     min-height: 100vh;
     display: flex;
-    
+    margin-top: 70px;
 }
 
 .container .image-container{
@@ -46,7 +44,7 @@ button.log_in_buttom {
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    padding: 10px ;
+    padding: 10px;
     
 }
 
@@ -103,6 +101,7 @@ button.log_in_buttom {
     .container .popup-image img{
         width: 95%;
     }
+
     
 }
 .image {
